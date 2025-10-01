@@ -36,7 +36,9 @@ gem "kamal", require: false
 
 # Add HTTP asset caching/compression and X-Sendfile acceleration to Puma [https://github.com/basecamp/thruster/]
 gem "thruster", require: false
-
+gem 'haml', '~> 6.3'
+gem 'simple_form', '~> 5.3', '>= 5.3.1'
+gem 'devise', '~> 4.9', '>= 4.9.4'
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
